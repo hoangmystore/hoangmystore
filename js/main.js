@@ -1,5 +1,7 @@
 // 1. Dữ liệu sản phẩm (Giả lập JSON)
 // Bạn sửa đường dẫn ảnh (image) và link tiếp thị (link) tại đây
+
+window.location.replace("https://collshp.com/nahoanq674");
 const productsData = [
     {
         id: 1,
@@ -78,3 +80,4 @@ function renderProducts() {
 
 // 4. Chạy hàm khi trang web tải xong
 document.addEventListener('DOMContentLoaded', renderProducts);
+
